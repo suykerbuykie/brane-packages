@@ -1,0 +1,36 @@
+name: weather
+version: 1.0.0
+kind: compute
+
+dependencies:
+  - python3
+  - python3-pip
+  - python3-yaml
+
+install:
+  - pip3 install matplotlib
+  - pip3 install requests
+
+files:
+  - run.py
+
+entrypoint:
+  kind: task
+  exec: run.py
+
+actions:
+  'graph':
+    command:
+      args:
+        - graph
+        
+    input:
+      - type: string
+        name: city
+
+      - type: string
+        name: file
+
+    output:
+      - type: string
+        name: output
