@@ -29,6 +29,9 @@ actions:
         name: city
 
       - type: string
+        name: apikey
+
+      - type: string
         name: file
 
     output:
