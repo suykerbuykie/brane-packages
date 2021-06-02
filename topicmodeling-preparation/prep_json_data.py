@@ -13,7 +13,7 @@ nltk.download('stopwords')
 nltk.download('words')
 words = set(nltk.corpus.words.words())
 # Create set of stop words
-manual_set = {"amp", "u", "nt"git , "s", "get", "nt", "s"}
+manual_set = {"amp", "u", "nt", "s", "get", "nt", "s"}
 stop = set(stopwords.words('english')).union(manual_set)
 # Create a set of punctuation words 
 punctuation = set(string.punctuation) 
