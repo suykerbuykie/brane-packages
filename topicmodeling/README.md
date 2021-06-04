@@ -8,7 +8,7 @@
 (This repository can also be cloned or downloaded and build in brane locally)
 
 ## Usage
-1. First, a JSON file with tweets is required. See the `topicmodeling-preparation` directory for the python fiel to create it. The file with tweets has been added to the submission.
+1. First, a JSON file with tweets is required. See the `topicmodeling-preparation` directory for the python file to create it. The file with tweets has been added to the submission.
 1. The topic modeling package takes 2 parameters:
     * The path to the file you wish to process
     * The path to where you wish to save the outcome
