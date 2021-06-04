@@ -14,4 +14,4 @@
     * The path to save the outcome
 
 ## Example:
-![topicmodeling](https://user-images.githubusercontent.com/20123509/120381894-4e4ef080-c323-11eb-81c0-c1bcfb55bfbd.png)
+![topicmodeling](https://raw.githubusercontent.com/suykerbuykie/brane-packages/topicmodeling/topicmodeling/example.png)
