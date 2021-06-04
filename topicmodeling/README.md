@@ -13,5 +13,5 @@
     * The path to the file you wish to process
     * The path to save the outcome
 
-## Example:
+## Example outcome
 ![topicmodeling](https://raw.githubusercontent.com/suykerbuykie/brane-packages/topicmodeling/topicmodeling/example.png)
